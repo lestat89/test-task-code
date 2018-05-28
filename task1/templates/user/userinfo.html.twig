@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    User Info
+{% endblock %}
+
+{% block body %}
+    <div class="col-md-12">
+        Good afternoon, {{ username }}!
+        <div class="clearfix"></div>
+        <a href="{{ path('logout') }}">Logout</a>
+    </div>
+{% endblock %}

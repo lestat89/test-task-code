@@ -1,0 +1,15 @@
+index:
+    path: /
+    controller: App\Controller\UserController::index
+
+auth:
+    path: /auth
+    controller: App\Controller\UserController::auth
+
+logout:
+    path: /logout
+    controller: App\Controller\UserController::logout
+
+gen:
+    path: /gen
+    controller: App\Controller\UserController::genCategory

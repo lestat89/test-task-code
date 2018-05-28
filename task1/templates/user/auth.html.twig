@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Sign In
+{% endblock %}
+
+{% block body %}
+    <div class="col-md-4 center-block">
+        {{ form_start(auth_form) }}
+        {{ form_widget(auth_form) }}
+        {{ form_end(auth_form) }}
+    </div>
+{% endblock %}
